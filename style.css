@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-  padding: 30px 0 15px 0;
+  padding: 10px 0 10px 0;
 }
 
 p {
@@ -85,4 +85,31 @@ p {
 p.special-border {
   border-bottom: 1px solid rgb(197, 198, 206);
   padding-bottom: 30px;
+}
+
+.cards {
+  padding: 20px 0 100px 0;
+}
+
+.card-number {
+  color: rgb(197, 198, 206);
+}
+
+.card-description {
+  color: rgb(93, 95, 121);
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px 15px 20px 15px;
+  gap: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+  
 }
