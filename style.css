@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(255, 253, 250);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo-w {
+  height: 30px;
+  width: 50px;
+}
+
+.icon-menu {
+  height: 20px;
+  width: 40px;
+}
+
+main {
+  padding: 0 15px 20px 15px;
+}
+
+.big-banner {
+  width: 100%;
+}
+
+h1 {
+  font-size: 42px;  
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.special-p {
+  color: rgb(93, 95, 121);
+  font-size: 15px;
+  padding: 10px 0 20px 0;
+}
+
+button {
+  background-color: rgb(241, 94, 80);
+  border: rgb(241, 94, 80);
+  height: 45px;
+  width: 200px;
+  color: rgb(255, 253, 250);
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: 350ms;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 26);
+}
+
+.posts {
+  background-color: rgb(0, 0, 26);
+  color: rgb(255, 253, 250);
+  padding: 20px;
+  margin-top: 60px;
+}
+
+h2 {
+  color: rgb(233, 171, 83);
+  font-size: 40px;
+}
+
+h3 {
+  padding: 30px 0 15px 0;
+}
+
+p {
+  color: rgb(197, 198, 206);
+}
+
+p.special-border {
+  border-bottom: 1px solid rgb(197, 198, 206);
+  padding-bottom: 30px;
+}
